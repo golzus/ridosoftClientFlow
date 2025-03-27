@@ -1,7 +1,7 @@
 const allowedOrigins = [
   'http://localhost:3001', 'http://localhost:1000', "http://localhost:3000",
   "http://localhost:3002", "https://client-txgw.onrender.com",
-  "https://client-txgw.onrender.com", 'http://localhost:1000/'
+  "https://client-txgw.onrender.com", 'http://localhost:1000/','https://react-client-pmp7.onrender.com'
 ];
 
 const corsOptions = {

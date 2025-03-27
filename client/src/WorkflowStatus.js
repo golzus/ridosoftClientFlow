@@ -30,7 +30,7 @@ const WorkflowStatus = () => {
 
   const fetchTasks = async () => {
     try {
-      const { data } = await Axios.get('http://localhost:1000/api/customers-details');
+      const { data } = await Axios.get('https://java-springboot-owxn.onrender.com/api/customers-details');
       console.log(data.data,"data");
       setLeads(data.data)
       // setTasks(data);
